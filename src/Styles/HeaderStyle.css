@@ -56,7 +56,7 @@ header .nav-link{
     color: rgb(15, 15, 15);
     padding: 0 1rem !important;
     font-size: 1.125rem;
-    font-weight: 500;
+    font-weight: 700;
     font-family: var(--osward-font);
     text-transform: uppercase;
     -webkit-transition: all 15s ease-in-out;

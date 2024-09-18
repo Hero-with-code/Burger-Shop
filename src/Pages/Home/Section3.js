@@ -71,7 +71,7 @@ function Section3() {
                 <div className='section-icon pt-1'>
                 <div className='icon bg1 d-flex justify-content-center align-items-center'>
                             <div>
-                            <i class="bi bi-code-slash"></i>
+                                <i class="bi bi-code-slash"></i>
                             </div>                           
                         </div>
                         <h3>UX Planning</h3>

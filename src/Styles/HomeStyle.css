@@ -133,15 +133,87 @@
     height: 550px;
 }
 
-.sect-main h2{
-    margin-top: 250px;
+.sect-main p{
+    margin: auto;
+    padding-bottom: 50px;
 }
 
-.sect-main .sect-3{
-    height: 100px;
-    width: 100px;
-    background-color: aqua;    
+.section5-butt .abc{
+    height: 300px;
+    width: 400px;
+    position: relative;
+    background-color: rgb(238, 244, 244);
+    border-bottom: 4px solid rgb(223, 24, 90);
 }
+.section5-butt .abc:hover{
+    background-color: rgb(232, 89, 137);
+}
+.section5-butt .abc1{
+    top: -50%;
+    left: 20%;   
+}
+.section5-butt .abc2{
+    top: -50%;
+    left: 10%;
+}
+.section5-butt .abc3{
+    top: -50%;
+}
+
+.section5-butt i{
+    font-size: 60px;
+}
+
+.section5-butt h3{
+    text-align: center;
+}
+
+.section5-butt p{
+    margin: 20px 30px;
+    font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

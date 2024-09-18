@@ -13,6 +13,44 @@ function Section5() {
             </Row>  
         </section>
 
+        <section className='section5-butt'>
+            <Row>
+            <Col>
+                <div className='abc1 abc pt-1'>
+                <div className='d-flex justify-content-center align-items-center'>
+                            <div>
+                                <i class="bi bi-code-slash"></i>
+                            </div>                           
+                        </div>
+                        <h3>Modern Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
+                </div>
+            </Col>
+            <Col>
+                <div className='abc2 abc pt-1'>
+                <div className='d-flex justify-content-center align-items-center'>
+                            <div>
+                                <i class="bi bi-code-slash"></i>
+                            </div>                           
+                        </div>
+                        <h3>Fast Loading</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
+                </div>
+            </Col>
+            <Col>
+                <div className='abc3 abc pt-1'>
+                <div className='d-flex justify-content-center align-items-center'>
+                            <div>
+                                <i class="bi bi-code-slash"></i>
+                            </div>                           
+                        </div>
+                        <h3>Clean Code</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
+                </div>
+            </Col>
+            </Row>
+        </section>
+
         <div className='sect-3'></div>
 
         <Row className='text-center'>
@@ -35,8 +73,6 @@ function Section5() {
             </Row>
 
     </section>
-    
-    
     </>
   )
 }
