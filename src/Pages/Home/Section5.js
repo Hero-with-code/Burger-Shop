@@ -1,0 +1,44 @@
+import React from 'react'
+import { Row, Col} from 'react-bootstrap'
+
+function Section5() {
+  return (
+    <>
+    <section className='sect-main'>
+        <section className='section5-top'>
+            <Row>
+                <Col>
+                    <div className="bg_parallax_scroll"> </div>
+                </Col>
+            </Row>  
+        </section>
+
+        <div className='sect-3'></div>
+
+        <Row className='text-center'>
+            <Col>
+                <h2>1078</h2>
+                <p>Completed Projects</p>
+            </Col>
+            <Col>
+                <h2>250048</h2>
+                <p>Lines Code</p>
+            </Col>
+            <Col>
+                <h2>250</h2>
+                <p>Team Members</p>
+            </Col>
+            <Col>
+                <h2>2045</h2>
+                <p>Happy Clients</p>
+            </Col>
+            </Row>
+
+    </section>
+    
+    
+    </>
+  )
+}
+
+export default Section5
