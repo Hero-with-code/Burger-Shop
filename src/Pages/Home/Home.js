@@ -1,16 +1,21 @@
 import React from 'react'
-import Layout from '../../Components/Layouts/Layout'
 import "../../Styles/HomeStyle.css";
+import Header from "../../Components/Layouts/Header"
+import Section1 from "../../Pages/Home/Section1"
+import Section2 from "../../Pages/Home/Section2"
+import Section3 from "../../Pages/Home/Section3"
 
 function Home(Section) {
   return (
     <>
     
-    <Layout>
-             {/* Home Section Hero Nanner */}
-        
-    </Layout>
+      <Header />
 
+      <Section1 /> 
+      
+      <Section2 />
+
+      <Section3 />
     </>
   )
 }

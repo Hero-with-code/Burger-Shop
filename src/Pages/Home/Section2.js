@@ -1,76 +1,176 @@
 import React from 'react'
-import { Container, Row, Col} from 'react-bootstrap'
-import { Link} from 'react-router-dom'
-import {Card,CardGroup} from 'react-bootstrap'
-import Logo from '../../Assets/simpleburgur.jpg';
-import pannerburgur from '../../Assets/pannerburgur.jpg';
-import chickenburgur from '../../Assets/chickenburgur.jpg';
+import { Container, Row, Col, Carousel} from 'react-bootstrap'
+
+import shop from "../../Assets/about-img1.jpg"
+import s1 from "../../Assets/agency-partner1.png"
+import s2 from "../../Assets/agency-partner2.png"
+import s3 from "../../Assets/agency-partner3.png"
+import s4 from "../../Assets/agency-partner4.png"
+import s5 from "../../Assets/agency-partner5.png"
+import s6 from "../../Assets/agency-partner6.png"
 
 function Section2() {
   return (
     <>
-    <section className="about_section">
+     <section className="brand_section5">
         <Container>
-          <Row>
-            <Col lg={{ span:8, offset:2}} className="text-center">
-                <h2>The burgur testes better when you eat it with your family</h2>
-                <p>Porta semper lacus, feugiat primis ultrice a ligula risus auctor an tempus feugiat dolor lecinia cubilia curae intwgwr orci congue and metus integer primis in integer metus</p>
+            <Row>
+                <div><h3>Trusted by over 2.5 milions company</h3></div>
+                <Carousel>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                            <div className="d-flex align-items-center justify-content-between">
+                                <div className="brand_img">
+                                    <img src={s1} className="img-fluid" alt="brand-1" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s2} className="img-fluid" alt="brand-2" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s3} className="img-fluid" alt="brand-3" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s4} className="img-fluid" alt="brand-4" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s5} className="img-fluid" alt="brand-5" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s6} className="img-fluid" alt="brand-5" />
+                                </div>
+                            </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
 
-                <Link to="/" className="btn order_now btn_red">Explore Full Menu</Link>
-            </Col>
-          </Row>  
-        </Container>
-    </section>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                            <div className="d-flex align-items-center justify-content-between">
+                            <div className="brand_img">
+                                    <img src={s1} className="img-fluid" alt="brand-1" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s2} className="img-fluid" alt="brand-2" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s3} className="img-fluid" alt="brand-3" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s4} className="img-fluid" alt="brand-4" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s5} className="img-fluid" alt="brand-5" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s6} className="img-fluid" alt="brand-5" />
+                                </div>
+                            </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
 
-    <section className='about_wrapper'>
-        <Container>
-            <Row className="justify-content-md-center">
-            <CardGroup>
-      <Card>
-        <Card variant="top" src="holder.js/100px160" />
-        <img src={Logo} alt='Logo' height={300} />
-        <Card.Body>
-          <Card.Title>Burger Simple</Card.Title>
-          <Card.Text>
-          A hamburger, or simply a burger, is a dish consisting of fillings—usually a patty of ground meat, typically beef—placed inside a sliced bun or bread roll..
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">A Few Second Ago.</small>
-        </Card.Footer>
-      </Card>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                            <div className="d-flex align-items-center justify-content-between">
+                            <div className="brand_img">
+                                    <img src={s1} className="img-fluid" alt="brand-1" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s2} className="img-fluid" alt="brand-2" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s3} className="img-fluid" alt="brand-3" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s4} className="img-fluid" alt="brand-4" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s5} className="img-fluid" alt="brand-5" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s6} className="img-fluid" alt="brand-5" />
+                                </div>
+                            </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
 
-      <Card>
-        <Card variant="top" src="holder.js/100px160" />
-        <img src={pannerburgur} alt='Logo' height={300} />
-        <Card.Body>
-          <Card.Title>Burgur Paneer</Card.Title>
-          <Card.Text>
-          Paneer  burgers are a popular dish in India. The dish is made out of  paneer with a mixture of vegetables and spices wrapped in a thin bread bun and fried on the grill.
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">A Few Second Ago.</small>
-        </Card.Footer>
-      </Card>
-      
-      <Card>
-        <Card variant="top" src="holder.js/100px160" />
-        <img src={chickenburgur} alt='Logo' height={300} />
-        <Card.Body>
-          <Card.Title>Burger Non Vage</Card.Title>
-          <Card.Text>
-          This chicken burger recipe is meant to be made on repeat with all the ingredients I try to keep stocked. Grab the meat, some fixings, and you’re good to go
-          </Card.Text>
-        </Card.Body>
-        <Card.Footer>
-          <small className="text-muted">A Few Second Ago.</small>
-        </Card.Footer>
-      </Card>
-    </CardGroup>
+                    <Carousel.Item>
+                        <Carousel.Caption>
+                            <div className="d-flex align-items-center justify-content-between">
+                            <div className="brand_img">
+                                    <img src={s1} className="img-fluid" alt="brand-1" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s2} className="img-fluid" alt="brand-2" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s3} className="img-fluid" alt="brand-3" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s4} className="img-fluid" alt="brand-4" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s5} className="img-fluid" alt="brand-5" />
+                                </div>
+                                <div className="brand_img">
+                                    <img src={s6} className="img-fluid" alt="brand-5" />
+                                </div>
+                            </div>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+
+                </Carousel>
             </Row>
         </Container>
     </section>
+
+    <section className="shop_section5">
+        <Container>
+            <Row className="align-items-center">
+            <Col lg={6}>
+                    <img src={shop} alt="shop" className="img-fluid e_shop" />
+                </Col>
+                <Col lg={6} className="text-center text-lg-start mb-5 mb-lg-0">
+                    <h4>DMake your website more powerful</h4>
+                    <p>We Design & Develop Websites that stand out of the crowd. Alea is an extremely feature rich, beautiful WordPress Template.</p>
+                    
+                    <table>
+                        <tr>
+                            <td>
+                                <div>
+                                    <h1> Friendly Interface</h1>
+                                     <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <h1>Organized Code</h1>
+                                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+                                </div>    
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <h1>Premium Support</h1>
+                                     <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+                                </div>
+                            </td>
+                            <td>
+                                <div>
+                                    <h1>powerful Options</h1>
+                                    <p>Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan facilisis.</p>
+                                </div>    
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div>
+                    <button type="button" class="btn btn-danger">Read More ... </button>
+                    </div>
+                </Col>
+            </Row>
+        </Container>
+    </section>
+
     </>
   )
 }

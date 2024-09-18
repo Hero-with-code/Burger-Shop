@@ -1,181 +1,26 @@
-/* Home Section_1 - Hero 1.0 *******1111111111111111111111111111111111111111111111111111111111111********>*/ 
+/* Home Section_1 - Hero 1.0 >*/ 
 
 .hero_section{
     position: relative;
-    background: url("../Assets/pic2.jpg") no-repeat center center;
+    background: url("../Assets/main-bg.jpg") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-    padding-top: 170px;
-    padding-bottom: 90px;
 }
-.burger_images_section1{
-    border-radius: 10%;
-    box-shadow: 20px 20px 5px grey;
-}
-.hero_section .price_badge .yellow_image{
-    /* background: url("../Assets/yellows.png") no-repeat center center; */
-    background-size: cover;
-    position: absolute;
-    margin-top: 20px;
-    margin-left: 0px; 
-    width: 180px;
-    height: 176px; 
-   box-shadow: 5px 5px 5px yellow;
-   border-radius: 50%;  
-}
-.hero_section .price_badge{
-    background-size: cover;
-    position: absolute;
-    top: -20px;
-    right: 5px;
-    width: 180px;
-    height: 176px;
-}
-.hero_section .badge_text{
-    width: 100%;
-    position: absolute;
-    top: 60%;
-    left: 25%;
-    transform: translateY(-50%);
-}
-.hero_section .badge_text .h4_xs{
-    font-size: 1.875rem;
-    font-weight: 600;
-    line-height: 1;
-}
-.hero_section .badge_text .h3_lg{
-    font-size: 2.875rem;
-    font-weight: 600;
-    line-height: 1;
-}
-.hero_section .hero_text h1{
-    font-family: var(--lilita-font);
-    font-size: 7rem;
-    line-height: 1;
-    margin-bottom: 15px;
-    letter-spacing: 3px;
-}
-.hero_section .hero_text h2{
-    font-family: var(--lilita-font);
-    font-size: 2.5rem;
-    line-height: 1;
-    margin-bottom: 20px;
-    letter-spacing: 3px;
-}
-.hero_section .hero_text p{
-    padding: 0 5%;
-}
-
-
-/* Home Section_1 - About 2.0  ********** 22222222222222222222222222222222222222222222222222222222222**********/
-
-.about_section{
-    padding-top: 80px;
-    padding-bottom: 300px;
-    background: url("../Assets/pic4.jpg") no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    margin-bottom: 25px;
-}
-.about_section h2{
-    font-size: 3.5rem;
-    color: rgb(210, 204, 204);
-}
-.about_section p{
-    color: rgb(239, 238, 243);
-    padding: 20px 30px;
-    font-size: 19px;
-    font-weight: 400;
-}
-.about_wrapper{
-    background-color: rgb(235, 243, 243);
-}
-
-
-/*  Home section_3 --> 3.0 ***************3333333333333333333333333333333333333333333333333333333****************/
-
-.menu_section3{
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-.menu_section3 .cart_img{
-    transition: all 500ms ease-in-out;
-}
-.menu_section3 h2{
-    font-size: 3.5rem;
-    color: red;
-}
-.menu_section3 .para{
-    color: gray;
-    padding: 10px;
-    font-size: 19px;
-}
-.about_wrapper .ads_box{
-    text-align: right;
-    padding: 80px 35px 50px;
-    border-radius: 6px;
-    border-radius: 6px;
-}
-.about_wrapper .ads_img1{
-    background: url("../Assets/ads1.jpg") no-repeat center center;
-    background-size: cover;
-}
-.about_wrapper .ads_img2{
-    background: url("../Assets/ads2.jpg") no-repeat center center;
-    background-size: cover;
-}
-.about_wrapper .ads_box h4{
-    font-size: 2.25rem;
-    font-weight: 400;
-    color: rgb(249, 249, 246);
-}
-.about_wrapper .ads_box h5{
-    font-size: 2.375rem;
-    color: rgb(249, 249, 244);
-}
-
-
-/* Home section_4 - -> 4.0 **************444444444444444444444444444444444444444444444444444444444444444**********/
-
-.promotion_section{
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background: rgb(235, 230, 230);
-    margin-top: 5px;
-}
-.promotion_section h2{
-    font-size: 3.25rem;
-    margin-bottom: 25px;
-}
-.promotion_section p{
-    font-size: 1.125rem; 
-}
-.promotion_section ul{
-    padding-left: 15px;
-}
-
 
 /* Home parallax 4.1 ....> */
 
 .bg_parallax_scroll{
-    background: url("../Assets/parallex.webp") no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
     height: 700px;
 }
 
-
-/* Home section_5 - - 5.0  ****************555555555555555555555555555555555555555555555555********************/
+/* Home section_2 */
 
 .shop_section5{
-    padding: 100px 0 0;
-    background: yellow;
-}
-.shop_section5 h4{
-    font-size: 2.375rem;
-    font-weight: 400;
-    color: chocolate;
+    padding: 100px 0;
+    background: rgb(255, 255, 255);
 }
 .shop_section5 h2{
     font-size: 4.5rem;
@@ -189,23 +34,21 @@
     color: chocolate;
     margin-bottom: 40px;
 }
-.shop_section5 .store{
-    max-width: 40%;
-}
-.shop_section5 .e-shop{
-    text-align: center;
-}
 .brand_section5{
-    padding: 70px 0 40px;
-    background: grey;
+    height: 200px;
+    padding: 40px 0 40px;
+    background: rgb(247, 66, 96);
     overflow: hidden;
+}
+.brand_section5 h3{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
 }
 .brand_section5 .brand_img{
     width: 180px;
     height: auto;
-}
-.carousel.slide .carousel-inner{
-    overflow: unset;
 }
 .carousel.slide .carousel-inner .carousel-caption{
     position: relative;
@@ -213,194 +56,24 @@
     left: unset;
 }
 
+/* section3  */
 
-/* Home section_6 - - -> 6.0 .**********666666666666666666666666666666666666666666666666666666666**************.*/
-
-.blog_section6{
-    padding: 80px 50px;
-    background: url("../Assets/backg.jpg") no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
-}
-.blog_section6 .user_img img{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    border-radius: 100%;
-    margin-bottom: 25px;
-}
-.blog_section6 .carousel.slide .carousel-inner .carousel-caption p{
-    font-size: 1.7rem;
-    line-height: 1.45;
-    font-weight: 400;
-    padding: 0 12%;
-    margin-bottom: 25px;
-}
-.blog_section6 .carousel.slide .carousel-inner .carousel-caption .item_rating i{
-    color: yellow;
-    margin-right: 5px;
-}
-.blog_section6 .carousel.slide .carousel-inner .carousel-caption h5{
-    font-size: 1rem;
-    margin-right: 2rem;
+.S1{
+    background-color: aqua;
 }
 
 
-/* Home section_7 - - -> 7.0  .*********7777777777777777777777777777777777777777777777777777777777777***********.*/
-
-.contact_section7{
-    background: url("../Assets/citypic.jpg") no-repeat center center;
-    background-size: cover;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.contact_section7 h4{
-    font-size: 2.375rem;
-    font-weight: 400;
-    margin-bottom: 25px;
-}
-.contact_section7 h2{
-    font-size: 4.5rem;
-    margin-bottom: 25px;
-}
-.contact_section7 p{
-    width: 70%;
-    margin: 0 auto 30px;
-    font-size: 19px;
-    font-weight: 500;
-    color: rgb(44, 35, 35);
-}
-.contact_section7 a{
-    font-size: 22px;
-    font-weight: 700;
-}
 
 
-/* Home footer last page ..........************************************************************...............*/
-
-.footer{
-   padding-top: 80px; 
-}
-.footer h5{
-    color: black;
-    line-height: 1;
-    margin-bottom: 25px;
-    font-weight: 700;
-    font-size: 20px;
-}
-.footer p{
-    margin-bottom: 3px;
-    font-size: 1rem;
-}
-.footer .calling{
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: red;
-}
-.footer ul li{
-    display: inline-block;
-    justify-content: center;
-    margin: 15px;
-    font-size: 1.4rem;
-}
-.footer .copy_right{
-    border-top: 1px solid grey;
-    margin-top: 60px;
-    padding: 20px 0;
-}
-.footer .copy_right ul li{
-    display: inline-block;
-    justify-content: center;
-    font-size: 1rem;
-    padding: 0 10px;
-    position: relative;
-}
-.footer .copy_right ul li span{
-    color: red;
-    font-weight: 600;
-}
-
-.footer .copy_right ul li:after{
-    content: "|";
-    padding-left: 11px;
-    position: absolute;
-    top: -1px;
-    right: -10px;
-    font-weight: 700;
-    font-size: 16px;
-}
-.footer .copy_right ul li:last-child:after{
-    display: none;
-}
 
 
-/* Scroll Top ..............##################################################################################*/
-
-.scroll_top{
-    position: fixed;
-    right: 30px;
-    bottom: 30px;
-    z-index: 99;
-    cursor: pointer;
-    width: 2.7rem;
-    height: 2.7rem;
-    line-height: 3rem;
-    text-align: center;
-    background: red;
-    border-radius: 10%;
-}
-.scroll_top i{
-    text-align: center;
-    font-size: 1.5rem;
-    color: whitesmoke;
-}
 
 
-/* Media Query mobile ****************************************************************************************/
 
-@media (max-width:992px){
-    /* Home about 2.0 */
-    .about_section h2{
-        font-size: 2.5rem;
-    }
-    .about_section p{
-        padding: 20px 0;
-    }
-}
 
-@media (max-width: 1200px){
-    /* Home promotion 4.0 */
-    .promotion_section h2{
-        font-size: 2.25rem;
-    }
-    .bg_parallax_scroll{
-        background-attachment: scroll;
-        height: 500px;
-    }
-    /* Home section 7.0 phone*/
-    .contact_section7 h2{
-        font-size: 3.5rem;
-    }
-}
 
-@media (max-width:767px){
-    /* Home Hero 1.0 */
-    .hero_section .hero_text h1{
-        font-size: 5.5rem;
-    }
-    /* Home section5 phone */
-.shop_section5 h2{
-    font-size: 1.8rem;
-}
-.shop_section5 h2{
-    font-size: 3.75rem;
-}
-.brand_section5{
-    padding: 50px 0 10px;
-}
-.brand_section5 .brand_img{
-    width: 70px;
-    height: auto;
-    }
-}
+
+
+
+
+

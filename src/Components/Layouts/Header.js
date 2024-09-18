@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 import '../../Styles/HeaderStyle.css';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Logo from "../../Assets/Logo/image.jpg";
+import Logo from "../../Assets/Logo.png"
 
 
 function Header() {
@@ -29,16 +29,16 @@ function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/" >Home</Nav.Link>
-            <Nav.Link as={Link} to="/About">About</Nav.Link>
-            <Nav.Link as={Link} to="/Manu">Our Menu</Nav.Link>
-            <Nav.Link as={Link} to="/Shop">Shop</Nav.Link>
-            <Nav.Link as={Link} to="/Blog">Blog</Nav.Link>
-            <Nav.Link as={Link} to="/Contact">Contact</Nav.Link>
-            <Nav.Link as={Link} to="/">
+            <Nav.Link to="/" >Home</Nav.Link>
+            <Nav.Link to="/About">About</Nav.Link>
+            <Nav.Link to="/Features">Features</Nav.Link>
+            <Nav.Link to="/Testimonials">Testimonials</Nav.Link>
+            <Nav.Link to="/Pricing">Pricing</Nav.Link>
+            <Nav.Link to="/News">News</Nav.Link>
+            <Nav.Link to="/Contact">Contact</Nav.Link>
+            <Nav.Link to="/">
             <div>
-            <i class="bi bi-bag fs-5"></i>
-            <em className="roundpoint"><sup>2</sup></em>
+            <button type="button" class="btn btn-dark">Sign Up</button>
             </div>
             </Nav.Link>
           </Nav> 

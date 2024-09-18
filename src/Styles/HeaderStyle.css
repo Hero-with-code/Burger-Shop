@@ -41,10 +41,9 @@ header .navbar.sticky{
     }
    
     header .Logo img{
-        width: auto;
-        max-width: inherit;
-        max-height: 80px;
-        
+        height: 70px;
+        width: 160px;
+        border-radius: 50%;
     }
     header .logo_images{
         border-radius: 50%;
@@ -72,11 +71,6 @@ header #sticky .nav-link{
 }
 header .nav-link:hover{
     color: yellow;
-}
-
-header .cart{
-    position: relative;
-    top: -0.4375;
 }
 
 header.roundpoint{
