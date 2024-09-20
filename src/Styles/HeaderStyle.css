@@ -11,7 +11,7 @@ header .navbar.sticky{
     position: fixed;
     left: 0;
     top: 0;
-    background-color: rgb(244, 238, 238);
+    background-color: white;
     -webkit-transition: all 15ms ease-in-out;
     -moz-transition: all 15ms ease-in-out;
     -o-transition: all 15ms ease-in-out;
