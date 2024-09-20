@@ -1,11 +1,10 @@
 import React from 'react'
 import { Container, Row, Col} from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 
 function Section9() {
   return (
     <>
-    <section>
+    <section className="section9 mt-5">
     <Container>
           <Row>
             <Col className="text-center pt-5">
@@ -14,38 +13,34 @@ function Section9() {
             </Col>
           </Row>  
         </Container>
-        <Container>
+        <Container className='mt-5'>
           <Row>
-            <Col sm={8} className="text-center pt-5">
+            <Col sm={8}>
                 <div className='contact1'>
                     <table>
                         <tr>
                             <td>
                                 <div>
-                                    <label>Name</label><br />
-                                    <input type='text' placeholder='Enter Your Name' /><br />
-                                    <label>Subject</label><br />
-                                    <input type='text' placeholder='Enter Your Subject' /><br />
-                                    <label>Message</label><br />
-                                    <textarea type='text' placeholder='Enter Your SMS' /><br />
+                                    <label className='con'>Name</label> 
+                                    <label className='cons-email'>Email</label><br />
+                                    <input type='text' placeholder='Enter Your Name' className='con' />
+                                    <input type='text' placeholder='Enter Your Email' className='con' /><br />
+                                    <label className='con'>Subject</label>
+                                    <label className='cons-no'>Phone Number</label><br />
+                                    <input type='text' placeholder='Enter Your Subject' className='con' />
+                                    <input type='text' placeholder='Enter Your Number' className='con' /><br />
+                                    <label className='con'>Message</label><br />
+                                    <textarea type='text' placeholder='Enter Your SMS' className='con' /><br />
                                     <button type="button" class="btn btn-danger">Send Message</button>
                                 </div>
                             </td>
-                            <td>
-                                <div>
-                                <label>Email</label><br />
-                                    <input type='email' placeholder='Enter Your Email' /><br />
-                                    <label>Phone Number</label><br />
-                                    <input type='number' placeholder='Enter Your Number' />
-                                </div>
-                            </td>
-                        </tr>
+                           </tr>
                     </table>
                 </div>
             </Col>
-            <Col sm={4} className="text-center pt-5">
+            <Col sm={4} >
                 <div className='contact2'>
-                    <div className='contact-detal'>
+                    <div className='pt-5'>
                         <h5>Address:</h5>
                         <p>1828 Johns Drive Glenview, IL 60025</p>
                         <h5>Email:</h5>
@@ -53,7 +48,7 @@ function Section9() {
                         <h5>Phone:</h5>
                         <p> +91 - 999 888 777</p>
                         <h5>Website:</h5>
-                        <Link href='#'>www.GreenTech.com</Link>
+                        <p>www.GreenTech.com</p>
                     </div>
                 </div>
             </Col>

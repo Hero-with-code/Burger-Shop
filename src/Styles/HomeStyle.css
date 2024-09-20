@@ -281,6 +281,88 @@ overflow: hidden;
 }
 
 /* Section - 9 */
+.section9{
+    background-color: rgb(244, 239, 239);
+
+}
+.section9 .contact1{
+    height: auto;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.section9 .con{
+    margin-left: 90px;
+}
+.section9 .cons-email{
+    padding-left: 333px;
+}
+.section9 .cons-no{
+    padding-left: 320px;
+}
+.section9 .con-email{
+    justify-items: end;
+    justify-content: end;
+    text-align: end;
+}
+.section9 label{
+    font-size: 21px;
+    padding-top: 30px;
+    margin-bottom: 5px;
+}
+.section9 input{
+    width: 300px;
+    height: 40px;
+}
+.section9 textarea{
+    width: 690px;
+    height: 100px;
+}
+
+.section9 input[type="text"]{
+    padding-left: 10px;
+    font-size: 21px;
+    font-weight: 300;
+}
+.section9 textarea[type="text"]{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.section9 button{
+    margin-left: 90px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 50px;
+    width: 180px;
+    font-size: 21px;
+    border-radius: 25px;
+}
+.section9 button:hover{
+    background-color: rgb(47, 36, 36);
+}
+
+
+.section9 .contact2{
+   background-color: white;
+   height: 515px;
+}
+
+.section9 .contact2 h5{
+    padding-left: 70px;
+    font-size: 24px;
+}
+.section9 .contact2 p{
+    padding-left: 70px;
+    font-size: 18px;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+.section9 .contact2 Link{
+    padding-left: 70px;
+    font-size: 18px;
+    font-weight: 300;
+}
 
 
 
@@ -294,8 +376,88 @@ overflow: hidden;
 
 
 
+/* Home footer last page ........*/
 
-
+.footer{
+    padding-top: 80px; 
+ }
+ .footer h5{
+     color: black;
+     line-height: 1;
+     margin-bottom: 25px;
+     font-weight: 700;
+     font-size: 20px;
+ }
+ .footer p{
+     margin-bottom: 3px;
+     font-size: 1rem;
+ }
+ .footer .calling{
+     font-size: 1.5rem;
+     font-weight: 600;
+     color: red;
+ }
+ .footer ul li{
+     display: inline-block;
+     justify-content: center;
+     margin: 15px;
+     font-size: 1.4rem;
+ }
+ .footer .copy_right{
+     border-top: 1px solid grey;
+     margin-top: 60px;
+     padding: 20px 0;
+ }
+ .footer .copy_right ul li{
+     display: inline-block;
+     justify-content: center;
+     font-size: 1rem;
+     padding: 0 10px;
+     position: relative;
+ }
+ .footer .copy_right ul li span{
+     color: red;
+     font-weight: 600;
+ }
+ 
+ .footer .copy_right ul li:after{
+     content: "|";
+     padding-left: 11px;
+     position: absolute;
+     top: -1px;
+     right: -10px;
+     font-weight: 700;
+     font-size: 16px;
+ }
+ .footer .copy_right ul li:last-child:after{
+     display: none;
+ }
+ 
+ 
+ /* Scroll Top ..............##################################################################################*/
+ 
+ .scroll_top{
+     position: fixed;
+     right: 30px;
+     bottom: 30px;
+     z-index: 99;
+     cursor: pointer;
+     width: 55px;
+     height: 55px;
+     line-height: 4rem;
+     text-align: center;
+     background: rgb(32, 33, 33);
+     border-radius: 50%;
+ }
+ .scroll_top:hover{
+    background-color: rgb(170, 4, 4);
+ }
+ .scroll_top i{
+     text-align: center;
+     font-size: 1.5rem;
+     color: white;
+     
+ }
 
 
 

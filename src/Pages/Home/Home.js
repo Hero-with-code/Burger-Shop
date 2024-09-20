@@ -8,8 +8,9 @@ import Section4 from "../../Pages/Home/Section4";
 import Section5 from "../../Pages/Home/Section5";
 import Section6 from "../../Pages/Home/Section6";
 import Section7 from "../../Pages/Home/Section7";
-import Section8 from './Section8';
-import Section9 from './Section9';
+import Section8 from '../../Pages/Home/Section8';
+import Section9 from '../../Pages/Home/Section9';
+import Footer from '../../Components/Layouts/Footer';
 
 function Home(Section) {
   return (
@@ -34,6 +35,8 @@ function Home(Section) {
       <Section8 />
 
       <Section9 />
+
+      <Footer />
     </>
   )
 }

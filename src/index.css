@@ -68,10 +68,11 @@ p{
     width: 5px;
   }
   ::-webkit-scrollbar-track{
-    background: whitesmoke;
+    background: rgb(233, 238, 238);
   }
   ::-webkit-scrollbar-thumb{
-    background: yellow;
+    background: rgb(32, 33, 33);
+    border-radius: 5px;
   }
 
  /* common Button*/
