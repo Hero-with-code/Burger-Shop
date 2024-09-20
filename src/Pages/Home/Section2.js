@@ -12,7 +12,7 @@ import s6 from "../../Assets/agency-partner6.png"
 function Section2() {
   return (
     <>
-     <section className="brand_section5">
+     <section className="brand_section2">
         <Container>
             <Row>
                 <div><h3>Trusted by over 2.5 milions company</h3></div>
@@ -122,7 +122,7 @@ function Section2() {
         </Container>
     </section>
 
-    <section className="shop_section5">
+    <section className="shop_section2">
         <Container>
             <Row className="align-items-center">
             <Col lg={6}>

@@ -18,35 +18,35 @@
 
 /* Home section_2 */
 
-.shop_section5{
+.shop_section2{
     padding: 100px 0;
     background: rgb(255, 255, 255);
 }
-.shop_section5 h2{
+.shop_section2 h2{
     font-size: 4.5rem;
     font-weight: 700;
     letter-spacing: -1px;
     color: chocolate;
 }
-.shop_section5 p{
+.shop_section2 p{
     font-size: 1.125rem;
     padding-right: 10%;
     color: chocolate;
     margin-bottom: 40px;
 }
-.brand_section5{
+.brand_section2{
     height: 200px;
     padding: 40px 0 40px;
     background: rgb(247, 66, 96);
     overflow: hidden;
 }
-.brand_section5 h3{
+.brand_section2 h3{
     margin-bottom: 40px;
     text-align: center;
     font-size: 30px;
     color: white;
 }
-.brand_section5 .brand_img{
+.brand_section2 .brand_img{
     width: 180px;
     height: auto;
 }
@@ -173,16 +173,114 @@
     font-size: 19px;
 }
 
+/* Section - 5 */
+
+.section6{
+    padding: 50px 0;
+    background: rgb(255, 255, 255);
+}
 
 
+.section6{
+    height: auto;
+    padding: 60px 0;
+}
+.section6 h3{
+    font-size: 30px;
+}
+.section6 .brand_img{
+    width: 180px;
+    height: auto;
+}
 
+/* Section - 7 */
 
+.main-section7{
+    background-color: rgb(246, 240, 240);
+}
+.section7 h2{
+    margin-top: 60px;
+}
+.section7 p{
+   font-size: 21px;
+   color: rgb(105, 93, 93); 
+}
+.section7{
+    padding-bottom: 40px;
+}
+.section7 .section-icon{
+    height: 620px;
+    width: 400px;
+    margin: 15px 0;
+    padding: 0 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(222, 219, 219);
+}
+.section7 .section-icon:hover{
+    background-color: white;
+    box-shadow: 2px 2px 2px white;
+}
+.section7 .icon{
+    height: 100px;
+    width: 100px; 
+    border-radius: 10px;
+    margin: 40px 120px;
+    box-shadow: 5px 5px 1px gray;
+    transition: 0.2s ease-in-out;
+}
+.section7 h3{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section7 p{
+    font-size: 21px;
+}
+.section7 button{
+    margin: 0 100px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    color: black;
+}
+.section7 .btn2{
+    background-color: rgb(212, 47, 47);
+    color: whitesmoke;
+}
+.section7 button:hover{
+    background-color: rgb(212, 47, 47);
+}
+/* Section - 8 */
+.section8{
+    width: auto;
+    overflow: hidden;
+}
+.section8 .containers-div{
+    margin: 50px 80px;
+}
+.section8 img{
+width: auto;
+height: auto;
+overflow: hidden;
+}
+.section8 .cards123{
+        width: 450px;     
+}
+.section8 button{
+    background-color: white;
+    border: 0px;
+    color: black;
+    font-size: 21px;
+    transition: 0.2s ease;
+}
+.section8 button:hover{
+    background-color: white;
+    color: red;
+    transform: scaleX(1.1);
+}
 
-
-
-
-
-
+/* Section - 9 */
 
 
 
