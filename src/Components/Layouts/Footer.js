@@ -43,14 +43,14 @@ function Footer() {
                 <h5>Working Hours</h5>
                 <p>Mon-Fri: 10:00AM - 06:00PM</p>
                 <p>Saturday: 10:00AM - 02:00PM</p>
-                <p>Sunday: OF Of OF OF </p>
+                <p>Sunday: OF OF OF OF OF OF OF </p>
               </div>
           </Col>
           <Col sm={6} lg={3} className="mb-4 mb-lg-0">
               <div className="text-center">
                 <h5>Oder Now</h5>
-                <p>Quaerat neque purus iprus</p>
-                <p><Link to="9117048402" className="calling">+91-911-704-8402</Link></p>
+                <p>Call - - - - - - - - - - - -</p>
+                <p><Link to="9117048402" className="calling">+91-911-000-0000</Link></p>
               </div>
           </Col>
           <Col sm={6} lg={3} className="mb-4 mb-lg-0">
