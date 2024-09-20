@@ -37,6 +37,7 @@ function Home(Section) {
       <Section9 />
 
       <Footer />
+      
     </>
   )
 }
