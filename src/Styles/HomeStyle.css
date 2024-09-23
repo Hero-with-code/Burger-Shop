@@ -109,7 +109,7 @@
     box-shadow: 5px 5px 1px gray;
     transition: 0.2s ease-in-out;
 }
-.section2 .icon:hover{
+.section2 .section-icon:hover .icon{
     transform: rotate(45deg);
 }
 .section2 i{
@@ -167,8 +167,9 @@
     border-bottom: 4px solid rgb(223, 24, 90);
 }
 .section5-butt .abc:hover{
-    background-color: rgb(232, 89, 137);
+    background-color: rgb(247, 210, 222);
 }
+
 .section5-butt .abc1{
     top: -50%;
     left: 20%;   
@@ -200,7 +201,6 @@
     padding: 50px 0;
     background: rgb(255, 255, 255);
 }
-
 
 .section6{
     height: auto;
