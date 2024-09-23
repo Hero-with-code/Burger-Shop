@@ -159,26 +159,26 @@
     padding-bottom: 50px;
 }
 
-.section5-butt .abc{
+.section5-butt .card{
     height: 300px;
     width: 400px;
     position: relative;
     background-color: rgb(238, 244, 244);
     border-bottom: 4px solid rgb(223, 24, 90);
 }
-.section5-butt .abc:hover{
+.section5-butt .card:hover{
     background-color: rgb(247, 210, 222);
 }
 
-.section5-butt .abc1{
+.section5-butt .card1{
     top: -50%;
     left: 20%;   
 }
-.section5-butt .abc2{
+.section5-butt .card2{
     top: -50%;
     left: 10%;
 }
-.section5-butt .abc3{
+.section5-butt .card3{
     top: -50%;
 }
 

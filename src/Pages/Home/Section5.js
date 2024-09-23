@@ -16,7 +16,7 @@ function Section5() {
         <section className='section5-butt'>
             <Row>
             <Col>
-                <div className='abc1 abc pt-1'>
+                <div className='card1 card pt-1'>
                     <div className='d-flex justify-content-center align-items-center'>
                         <div>
                             <i class="bi bi-code-slash"></i>
@@ -27,7 +27,7 @@ function Section5() {
             </div>    
             </Col>
             <Col>
-                <div className='abc2 abc pt-1'>
+                <div className='card2 card pt-1'>
                     <div className='d-flex justify-content-center align-items-center'>
                         <div>
                              <i class="bi bi-code-slash"></i>
@@ -38,7 +38,7 @@ function Section5() {
                 </div>
             </Col>
             <Col>
-                <div className='abc3 abc pt-1'>
+                <div className='card3 card pt-1'>
                     <div className='d-flex justify-content-center align-items-center'>
                         <div>
                             <i class="bi bi-code-slash"></i>
