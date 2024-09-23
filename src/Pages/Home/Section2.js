@@ -1,6 +1,5 @@
 import React from 'react'
 import { Container, Row, Col, Carousel} from 'react-bootstrap'
-
 import shop from "../../Assets/about-img1.jpg"
 import s1 from "../../Assets/agency-partner1.png"
 import s2 from "../../Assets/agency-partner2.png"
@@ -16,7 +15,32 @@ function Section2() {
         <Container>
             <Row>
                 <div><h3>Trusted by over 2.5 milions company</h3></div>
-                <Carousel>
+                    <Carousel>
+                        <Carousel.Item>
+                            <Carousel.Caption>
+                                <div className="d-flex align-items-center justify-content-between">
+                                    <div className="brand_img">
+                                        <img src={s1} className="img-fluid" alt="brand-1" />
+                                    </div>
+                                    <div className="brand_img">
+                                        <img src={s2} className="img-fluid" alt="brand-2" />
+                                    </div>
+                                    <div className="brand_img">
+                                        <img src={s3} className="img-fluid" alt="brand-3" />
+                                    </div>
+                                    <div className="brand_img">
+                                        <img src={s4} className="img-fluid" alt="brand-4" />
+                                    </div>
+                                    <div className="brand_img">
+                                        <img src={s5} className="img-fluid" alt="brand-5" />
+                                    </div>
+                                    <div className="brand_img">
+                                        <img src={s6} className="img-fluid" alt="brand-5" />
+                                    </div>
+                                </div>
+                            </Carousel.Caption>
+                    </Carousel.Item>
+
                     <Carousel.Item>
                         <Carousel.Caption>
                             <div className="d-flex align-items-center justify-content-between">
@@ -45,7 +69,7 @@ function Section2() {
                     <Carousel.Item>
                         <Carousel.Caption>
                             <div className="d-flex align-items-center justify-content-between">
-                            <div className="brand_img">
+                                <div className="brand_img">
                                     <img src={s1} className="img-fluid" alt="brand-1" />
                                 </div>
                                 <div className="brand_img">
@@ -70,7 +94,7 @@ function Section2() {
                     <Carousel.Item>
                         <Carousel.Caption>
                             <div className="d-flex align-items-center justify-content-between">
-                            <div className="brand_img">
+                                <div className="brand_img">
                                     <img src={s1} className="img-fluid" alt="brand-1" />
                                 </div>
                                 <div className="brand_img">
@@ -91,32 +115,6 @@ function Section2() {
                             </div>
                         </Carousel.Caption>
                     </Carousel.Item>
-
-                    <Carousel.Item>
-                        <Carousel.Caption>
-                            <div className="d-flex align-items-center justify-content-between">
-                            <div className="brand_img">
-                                    <img src={s1} className="img-fluid" alt="brand-1" />
-                                </div>
-                                <div className="brand_img">
-                                    <img src={s2} className="img-fluid" alt="brand-2" />
-                                </div>
-                                <div className="brand_img">
-                                    <img src={s3} className="img-fluid" alt="brand-3" />
-                                </div>
-                                <div className="brand_img">
-                                    <img src={s4} className="img-fluid" alt="brand-4" />
-                                </div>
-                                <div className="brand_img">
-                                    <img src={s5} className="img-fluid" alt="brand-5" />
-                                </div>
-                                <div className="brand_img">
-                                    <img src={s6} className="img-fluid" alt="brand-5" />
-                                </div>
-                            </div>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-
                 </Carousel>
             </Row>
         </Container>
@@ -125,13 +123,12 @@ function Section2() {
     <section className="shop_section2">
         <Container>
             <Row className="align-items-center">
-            <Col lg={6}>
+                <Col lg={6}>
                     <img src={shop} alt="shop" className="img-fluid e_shop" />
                 </Col>
                 <Col lg={6} className="text-center text-lg-start mb-5 mb-lg-0">
                     <h4>DMake your website more powerful</h4>
                     <p>We Design & Develop Websites that stand out of the crowd. Alea is an extremely feature rich, beautiful WordPress Template.</p>
-                    
                     <table>
                         <tr>
                             <td>
@@ -161,14 +158,13 @@ function Section2() {
                                 </div>    
                             </td>
                         </tr>
-                    </table>
-
-                    <div>
-                    <button type="button" class="btn btn-danger">Read More ... </button>
-                    </div>
-                </Col>
-            </Row>
-        </Container>
+                      </table>
+                   <div>
+                 <button type="button" class="btn btn-danger">Read More ... </button>
+              </div>
+           </Col>
+         </Row>
+       </Container>
     </section>
 
     </>

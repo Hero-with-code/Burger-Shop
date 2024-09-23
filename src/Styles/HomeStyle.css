@@ -364,7 +364,6 @@ overflow: hidden;
     background-color: rgb(47, 36, 36);
 }
 
-
 .section9 .contact2{
    background-color: white;
    height: 515px;
@@ -388,18 +387,7 @@ overflow: hidden;
 
 
 
-
-
-
-
-
-
-
-
-
-
 /* Home footer last page ........*/
-
 .footer{
     padding-top: 80px; 
  }
@@ -456,7 +444,7 @@ overflow: hidden;
  }
  
  
- /* Scroll Top ..............##################################################################################*/
+ /* Scroll Top ... */
  
  .scroll_top{
      position: fixed;
@@ -480,23 +468,3 @@ overflow: hidden;
      color: white;
      
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

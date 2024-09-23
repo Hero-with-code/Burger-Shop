@@ -16,8 +16,9 @@ function Section6() {
             </Col>
           </Row>  
         </Container>
+
         <Container>   
-        <Row className="d-flex">
+            <Row className="d-flex">
                 <Col>
                     <div className='section-icon pt-1'>
                         <div className='icon bg1 d-flex justify-content-center align-items-center'>

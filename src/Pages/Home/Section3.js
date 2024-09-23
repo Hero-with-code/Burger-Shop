@@ -17,16 +17,16 @@ function Section3() {
 
     <section className="section2 main-section3"> 
         <Container>   
-        <Row className="d-flex">
+            <Row className="d-flex">
                 <Col>
                     <div className='section-icon pt-1'>
-                        <div className='icon bg1 d-flex justify-content-center align-items-center'>
-                            <div>
-                                <i class="bi bi-code-slash"></i>
-                            </div>                           
+                      <div className='icon bg1 d-flex justify-content-center align-items-center'>
+                        <div>
+                            <i class="bi bi-code-slash"></i>
+                        </div>                           
                         </div>
                             <h3>App Development</h3>
-                            <p className='justify-content-start align-items-start'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
+                        <p className='justify-content-start align-items-start'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
                     </div>
                 </Col>
                 <Col>
@@ -35,22 +35,21 @@ function Section3() {
                             <div>
                                 <i class="bi bi-cloudy-fill"></i>
                             </div>
-                            
-                        </div>
-                            <h3>Digital Branding</h3>
+                          </div>
+                             <h3>Digital Branding</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
-                        </div>
-                    </Col>
+                      </div>
+                </Col>
                 <Col>
                     <div className='section-icon pt-1'>
-                    <div className='icon bg1 d-flex justify-content-center align-items-center'>
+                        <div className='icon bg1 d-flex justify-content-center align-items-center'>
                             <div>
                                 <i class="bi bi-code-slash"></i>
                             </div>                           
+                            </div>
+                                <h3>Cloud Storage</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
                         </div>
-                            <h3>Cloud Storage</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
-                    </div>
                 </Col>
             </Row>
         </Container>
@@ -58,39 +57,39 @@ function Section3() {
             <Row className="d-flex">
               <Col>
                 <div className='section-icon pt-1'>
-                <div className='icon bg1 d-flex justify-content-center align-items-center'>
-                            <div>
+                    <div className='icon bg1 d-flex justify-content-center align-items-center'>
+                        <div>
                             <i class="bi bi-cloudy-fill"></i>
-                            </div>                           
+                        </div>                           
                         </div>
-                        <h3>Customization</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
-                </div>
+                            <h3>Customization</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
+                 </div>
             </Col>
             <Col>
                 <div className='section-icon pt-1'>
-                <div className='icon bg1 d-flex justify-content-center align-items-center'>
-                            <div>
-                                <i class="bi bi-code-slash"></i>
-                            </div>                           
+                    <div className='icon bg1 d-flex justify-content-center align-items-center'>
+                        <div>
+                            <i class="bi bi-code-slash"></i>
+                        </div>                           
                         </div>
-                        <h3>UX Planning</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
-                    </div>
+                            <h3>UX Planning</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
+                     </div>
                 </Col>
             <Col>
                 <div className='section-icon pt-1'>
-                <div className='icon bg1 d-flex justify-content-center align-items-center'>
-                            <div>
+                    <div className='icon bg1 d-flex justify-content-center align-items-center'>
+                        <div>
                             <i class="bi bi-cloudy-fill"></i>
-                            </div>                           
+                        </div>                           
                         </div>
-                        <h3>Customer Support</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
-                </div>
-            </Col>
-    </Row>
-</Container>  
+                            <h3>Customer Support</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
+                    </div>
+                </Col>
+            </Row>
+        </Container>  
     </section>
     </>
   )

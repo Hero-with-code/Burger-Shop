@@ -5,7 +5,7 @@ function Section9() {
   return (
     <>
     <section className="section9 mt-5">
-    <Container>
+        <Container>
           <Row>
             <Col className="text-center pt-5">
                 <h2>Contact Us</h2>
@@ -13,6 +13,7 @@ function Section9() {
             </Col>
           </Row>  
         </Container>
+        
         <Container className='mt-5'>
           <Row>
             <Col sm={8}>

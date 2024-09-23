@@ -11,21 +11,21 @@ function Section5() {
                     <div className="bg_parallax_scroll"> </div>
                 </Col>
             </Row>  
-        </section>
+    </section>
 
-        <section className='section5-butt'>
-            <Row>
+    <section className='section5-butt'>
+        <Row>
             <Col>
                 <div className='card1 card pt-1'>
                     <div className='d-flex justify-content-center align-items-center'>
                         <div>
                             <i class="bi bi-code-slash"></i>
-                                </div>                           
-                            </div>
-                        <h3>Modern Design</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
-            </div>    
-            </Col>
+                        </div>                           
+                        </div>
+                          <h3>Modern Design</h3>
+                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
+                    </div>    
+                </Col>
             <Col>
                 <div className='card2 card pt-1'>
                     <div className='d-flex justify-content-center align-items-center'>
@@ -43,10 +43,10 @@ function Section5() {
                         <div>
                             <i class="bi bi-code-slash"></i>
                             </div>                           
-                        </div>
-                    <h3>Clean Code</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
-            </div>
+                            </div>
+                        <h3>Clean Code</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices</p>
+                </div>
             </Col>
             </Row>
         </section>
@@ -70,7 +70,6 @@ function Section5() {
                     <p>Happy Clients</p>
                 </Col>
             </Row>
-
     </section>
     </>
   )

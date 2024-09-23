@@ -20,7 +20,7 @@ function Section7() {
 
     <section className="section7 main-section7"> 
         <Container>   
-        <Row className="d-flex">
+            <Row className="d-flex">
                 <Col>
                     <div className='section-icon pt-1'>
                         <div className='icon bg1 d-flex justify-content-center align-items-center'>
@@ -30,25 +30,23 @@ function Section7() {
                         </div>
                             <h3>Basic Plan</h3>
                             <p className='justify-content-start align-items-start'>5 GB Bandwidth
-                            Highest Speed 1 GB Storage Unlimited Website Unlimited Users 24x7 Great Support Data Security and Backups Monthly Reports and Analytics</p> <hr />
+                             Highest Speed 1 GB Storage Unlimited Website Unlimited Users 24x7 Great Support Data Security and Backups Monthly Reports and Analytics</p> <hr />
                             <h3 className='text-center pt-2 pb-2'>$549</h3>
                             <p className='text-center pb-2'>Per Month</p>
                             <button type="button" class="btn btn-danger">SELECT</button>
-                    </div>
-                     
-                </Col>
+                      </div>       
+                 </Col>
                 <Col>
                     <div className='section-icon pt-1'>
                         <div className='icon bg1 d-flex justify-content-center align-items-center'>
                             <div>
                                 <img src={icon2} alt='section7-card-icons' />
+                            </div> 
                             </div>
-                            
-                        </div>
-                            <h3>Advanced Plan</h3>
-                            <p>10 GB Bandwidth Highest Speed 2 GB Storage Unlimited Website Unlimited Users 24x7 Great Support Data Security and Backups Monthly Reports and Analytics</p> <hr />
-                            <h3 className='text-center pt-2 pb-2'>$749</h3>
-                            <p className='text-center pb-2'>Per Month</p>
+                                <h3>Advanced Plan</h3>
+                                <p>10 GB Bandwidth Highest Speed 2 GB Storage Unlimited Website Unlimited Users 24x7 Great Support Data Security and Backups Monthly Reports and Analytics</p> <hr />
+                                <h3 className='text-center pt-2 pb-2'>$749</h3>
+                                <p className='text-center pb-2'>Per Month</p>
                             <button type="button" class="btn btn-danger btn2">SELECT</button>
                         </div>
                     </Col>
