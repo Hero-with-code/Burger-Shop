@@ -51,7 +51,7 @@ function Section5() {
             </Row>
         </section>
 
-        <div className='sect-3'></div>
+        <div className='sect-3'>
             <Row className='text-center'>
                 <Col>
                     <h2>1078</h2>
@@ -70,6 +70,7 @@ function Section5() {
                     <p>Happy Clients</p>
                 </Col>
             </Row>
+            </div>
     </section>
     </>
   )

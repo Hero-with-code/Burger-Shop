@@ -127,7 +127,7 @@ function Section2() {
                     <img src={shop} alt="shop" className="img-fluid e_shop" />
                 </Col>
                 <Col lg={6} className="text-center text-lg-start mb-5 mb-lg-0">
-                    <h4>DMake your website more powerful</h4>
+                    <h4>Make your website more powerful</h4>
                     <p>We Design & Develop Websites that stand out of the crowd. Alea is an extremely feature rich, beautiful WordPress Template.</p>
                     <table>
                         <tr>
